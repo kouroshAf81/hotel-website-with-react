@@ -81,7 +81,7 @@ const Footer = () => {
             <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
 
             <input type='text' className="" name='' id='' />
-            <input type='text' className='primary-btn' value='SUBSCRIBE' />
+            <input type='text' className='primary-btn' value='SUBSCRIBE' readOnly/>
           </div>
         </div>
       </footer>
