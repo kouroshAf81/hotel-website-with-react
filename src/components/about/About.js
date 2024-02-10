@@ -2,6 +2,7 @@ import React from 'react'
 import AboutCard from './AboutCard'
 import './About.css'
 import HeadTitle from '../../common/HeadTitle/HeadTitle'
+
 const About = () => {
     return (
         <>

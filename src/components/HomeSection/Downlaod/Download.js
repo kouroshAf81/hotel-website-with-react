@@ -17,12 +17,12 @@ const Download = () => {
                         <li>&#10003; Get paperless confirmation</li>
                     </ul>
                     <div className="img flex">
-                        <img src="/images/appstore-button.png" alt="" />
-                        <img src="/images/google-play-button.png" alt="" />
+                        <img src="/hotel-website-with-react/images/appstore-button.png" alt="" />
+                        <img src="/hotel-website-with-react/images/google-play-button.png" alt="" />
                     </div>
                 </div>
                 <div className="row row2">
-                    <img src="/images/app-image-1.png" alt="" />
+                    <img src="/hotel-website-with-react/images/app-image-1.png" alt="" />
                 </div>
             </div>
         </section>

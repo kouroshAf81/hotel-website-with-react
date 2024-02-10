@@ -16,7 +16,7 @@ const AboutCard = () => {
                 </button>
             </div>
             <div className="row image">
-                <img src="/images/about-img-1.jpg" alt="" />
+                <img src="/hotel-website-with-react/images/about-img-1.jpg" alt="" />
             </div>
         </div>
     </>

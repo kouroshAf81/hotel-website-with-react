@@ -1,12 +1,12 @@
 const Data = [
     {
-        images: 'images/slider-1.jpg'
+        images: '/hotel-website-with-react/images/slider-1.jpg'
     },
     {
-        images: 'images/slider-2.jpg'
+        images: '/hotel-website-with-react/images/slider-2.jpg'
     },
     {
-        images: 'images/slider-3.jpg'
+        images: '/hotel-website-with-react/images/slider-3.jpg'
     }
 ]
 

@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.71d9610e.css",
-    "main.js": "/react-gh-pages/static/js/main.cc51e8ab.js",
-    "static/media/image-heading.jpg": "/react-gh-pages/static/media/image-heading.49f53eab01efd103a6e5.jpg",
-    "static/media/slick.svg": "/react-gh-pages/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/react-gh-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/react-gh-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/react-gh-pages/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/react-gh-pages/index.html",
-    "main.71d9610e.css.map": "/react-gh-pages/static/css/main.71d9610e.css.map",
-    "main.cc51e8ab.js.map": "/react-gh-pages/static/js/main.cc51e8ab.js.map"
+    "main.css": "/hotel-website-with-react/static/css/main.3dd0d351.css",
+    "main.js": "/hotel-website-with-react/static/js/main.06bba8b9.js",
+    "static/media/image-heading.jpg": "/hotel-website-with-react/static/media/image-heading.49f53eab01efd103a6e5.jpg",
+    "static/media/side-bg.jpg": "/hotel-website-with-react/static/media/side-bg.5ed027473a40927e7f0c.jpg",
+    "static/media/slick.svg": "/hotel-website-with-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hotel-website-with-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hotel-website-with-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hotel-website-with-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/hotel-website-with-react/index.html",
+    "main.3dd0d351.css.map": "/hotel-website-with-react/static/css/main.3dd0d351.css.map",
+    "main.06bba8b9.js.map": "/hotel-website-with-react/static/js/main.06bba8b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.71d9610e.css",
-    "static/js/main.cc51e8ab.js"
+    "static/css/main.3dd0d351.css",
+    "static/js/main.06bba8b9.js"
   ]
 }
