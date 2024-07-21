@@ -55,7 +55,7 @@ const Login = () => {
       <section className='show-data'>
         {recValue.map((cureentValue) => {
           return (
-            <>
+            <div className='container'>
               <div className='sign-box'>
                 <h1>Sign-In Successfully</h1>
                 <h3>
@@ -65,7 +65,7 @@ const Login = () => {
                   Password : <p>{cureentValue.password}</p>
                 </h3>
               </div>
-            </>
+            </div>
           )
         })}
       </section>

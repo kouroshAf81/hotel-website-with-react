@@ -185,3 +185,8 @@ input {
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 375px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+}

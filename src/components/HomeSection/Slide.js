@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Data from './Data'
 
 const Slide = ({ slides }) => {
   const [current, setCurrent] = useState(0)
@@ -26,7 +25,7 @@ const Slide = ({ slides }) => {
             <i className='fas fa-caret-right'></i>
           </button>
         </div>
-        {Data.map((slide, index) => {
+        {slides.map((slide, index) => {
           return (
             <div key={index} className={index === current ? 'slide active' : 'slide'}>
               {index === current && <img src={slide.images} alt="Home img" />}

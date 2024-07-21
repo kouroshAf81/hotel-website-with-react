@@ -27,7 +27,7 @@ const About = () => {
                         </button>
                     </div>
                     <div className="row image">
-                        <img src="/images/feature-img-1.jpg" alt="" style={{ 'margin-top': '10px' }} />
+                        <img src="/images/feature-img-1.jpg" alt="" style={{ marginTop: '10px' }} />
                         <div className="control-btn">
                             <button className="prev">
                                 <i className="fas fa-play"></i>

@@ -5,6 +5,7 @@ const BlogCard = ({item : { id, date, category, title, cover, para, desc }}) => 
   return (
     <>
       <div className='items'>
+        <Link to={`/blogsingle/${id}`} className='blogItem-link'>
         <div className="img">
           <img src={cover} alt="" />
         </div>
@@ -16,9 +17,9 @@ const BlogCard = ({item : { id, date, category, title, cover, para, desc }}) => 
           <h3> {title} </h3>
           <p> {para} </p>
         </div>
-
-        <Link to={`/blogsingle/${id}`} className='blogItem-link'>
+        <div className='readmore'>
           READ MORE <i className='fa fa-long-arrow-alt-right'></i>
+        </div>
         </Link>
       </div>
     </>

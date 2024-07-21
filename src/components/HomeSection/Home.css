@@ -33,13 +33,9 @@
     transform: scale(1.08);
 }
 
-.slide-form h2 {
-    margin-top: 30px;
-}
-
 .slide-form {
     position: absolute;
-    top: 30%;
+    top: 250px;
     left: 10%;
     background-color: rgba(0, 0, 0, 0.7);
     width: 35%;
@@ -48,8 +44,14 @@
     padding: 10px;
 }
 
+.slide-form h2 {
+    margin-top: 30px;
+}
+
 .slide-form input {
-    margin-top: 20px;
+    margin-top: 15px;
+    color: #000;
+    padding: 10px;
 }
 
 .slide-form .flex-space input:nth-child(odd) {
@@ -62,14 +64,7 @@
 
 
 @media screen and (max-width: 1015px) {
-    .slider {
-        height: 65vh;
-    }
-
-    .slider img {
-        height: 65vh;
-    }
-
+    
     .slide-form {
         margin-top: 20px;
         position: relative;
@@ -79,4 +74,16 @@
         height: auto;
         padding: 5px;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .control-btn button {
+        width: 35px;
+        height: 35px;
+      }
+      .control-btn svg {
+        width: 35px !important;
+        height: 35px;
+      }
+
 }

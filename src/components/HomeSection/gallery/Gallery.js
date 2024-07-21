@@ -17,11 +17,11 @@ const Gallery = () => {
     <div>
       <section className='collection'>
         <div className='container top'>
-          <Slider {...settings}>
+          <Slider {...settings} style={{overflow: 'hidden'}}>
             {data.map((value,index) => {
               return (
                 <div className='box' key={index}>
-                  <img src={value.cover} alt=''  />
+                  <img src={value.cover} alt='d'  />
                 </div>
               )
             })}

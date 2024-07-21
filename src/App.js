@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTop from './components/scrollToTop/ScrollToTop'
 import  './App.css' 
 import { Navbar } from './common/Navbar/Navbar'
 import { Route,Routes } from 'react-router-dom'
@@ -34,6 +35,7 @@ const App = () => {
         <Route path='/register' element={<Register />}></Route>
       </Routes>
       <Footer />
+      <ScrollToTop />
     </>
   )
 }

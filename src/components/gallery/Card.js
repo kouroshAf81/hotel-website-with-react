@@ -8,9 +8,9 @@ const Card = (props) => {
     return (
         <>
             <div className="items">
-                <div className="img">
+                <div className="img" onClick={toggleModal}>
                     <img src={props.images} alt="" />
-                    <div onClick={toggleModal}><i className="fas fa-image" ></i></div>
+                    <div><i className="fas fa-image" ></i></div>
                 </div>
                 <div className="title">
                     <h3>{props.title}</h3>
@@ -20,7 +20,7 @@ const Card = (props) => {
             <div className="popup">
                 <div className="hide"></div>
                 <div className="popup-content">
-                    <button onClick={toggleModal}>Close</button>
+                    <button onClick={toggleModal}>X</button>
                     <img src={props.images} alt='' />
                 </div>
             </div>

@@ -22,7 +22,7 @@ const Download = () => {
                     </div>
                 </div>
                 <div className="row row2">
-                    <img src="/hotel-website-with-react/images/app-image-1.png" alt="" />
+                    <img src="/hotel-website-with-react/images/app-image-1.png" alt="" className='image' />
                 </div>
             </div>
         </section>

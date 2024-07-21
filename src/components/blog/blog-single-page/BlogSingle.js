@@ -1,9 +1,9 @@
 import React, { useState,useEffect } from 'react'
-
 import { Link, useParams } from 'react-router-dom'
 import HeadTitle from '../../../common/HeadTitle/HeadTitle'
 import EmptyFile from '../../../common/EmptyFile/EmptyFile'
 import BlogData from '../BlogData'
+
 const BlogSingle = () => {
   const { id } = useParams()
   const [item, setItem] = useState(null)
@@ -14,7 +14,6 @@ const BlogSingle = () => {
       setItem(item)
     }
   }, [id])
-  console.log(item)
   return (
     <>
         <HeadTitle />

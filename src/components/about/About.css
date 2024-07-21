@@ -83,8 +83,14 @@
   .about-card img {
     width: 100%;
   }
-
+  
   .row1 {
     width: 100%;
   }
+
+  .about-card .row1 {
+    width: 100%;
+    padding: 10px;
+  }
+  
 }

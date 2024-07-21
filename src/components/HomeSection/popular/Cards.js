@@ -35,13 +35,22 @@ const Cards = () => {
         prevArrow: <SamplePrevArrow /> ,
         responsive: [
             {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 2,
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 2,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                     initialSlide: 2,
                 }
             }
+            
         ]
     };
     return (

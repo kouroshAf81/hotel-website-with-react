@@ -10,10 +10,11 @@ export const Navbar = () => {
       <nav className='navbar'>
         <div className='container flex-space'>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
+            <i className='fas fa-bars'></i>
           </div>
 
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}  onClick={handleClick}>
+            <div className={`close-menu ${click && 'active'}`}><i className='fas fa-times'></i></div>
             <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/about' onClick={closeMobileMenu}>About</Link></li>
             <li><Link to='/gallery' onClick={closeMobileMenu}>Gallery</Link></li>
@@ -35,7 +36,7 @@ export const Navbar = () => {
             </li>
             <li>
               <Link to='/contact'>
-                <button className='primary-btn'>Request a Quote</button>
+                <button className='primary-btn request-btn'>Request a Quote</button>
               </Link>
             </li>
           </div>
@@ -45,7 +46,7 @@ export const Navbar = () => {
       <header>
         <div className="container flex-space">
           <div className="logo">
-            <img src='images/logo.png' alt="" />
+            <img src='./hotel-website-with-react/images/logo.png' alt="" />
           </div>
           <div className="contact flex-space">
             <div className="box flex-space">

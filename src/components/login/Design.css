@@ -8,11 +8,14 @@
 .forms form div {
   margin: 10px 0;
 }
-
+.forms input {
+    color: #000;
+} 
 .forms form .flex input {
   width: 20px;
   height: 20px;
   margin-right: 15px;
+  color: #000 !important;
 }
 
 .forms p {
@@ -39,7 +42,7 @@
   font-size: 13px;
 }
 
-/*----------show-data---------*/
+/*----------show-data start ---------*/
 .show-data h1 {
   color: #31b675;
   margin: 0 0 20px 0;
@@ -47,20 +50,45 @@
 
 .show-data h3 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .show-data h3 p {
   font-weight: 400;
   margin-left: 5px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .show-data .sign-box {
   margin-top: 50px;
 }
 
-/*----------show-data---------*/
+/*----------show-data end---------*/
+
+
 @media screen and (max-width: 768px) {
   .sign-box {
     width: 80%;
+    padding: 20px;
   }
+  
+
+}
+@media screen and (max-width: 485px) {
+    .sign-box {
+        width: 100%;
+    }
+    .forms .flex-space {
+        flex-direction: column;
+    }
+    .show-data h1 {
+        font-size: 20px;
+    }
+    .show-data h3 {
+        font-size: 16px;
+    }
+    .show-data p{
+        font-size: 13px;
+    }
 }

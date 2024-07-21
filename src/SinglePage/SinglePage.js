@@ -24,7 +24,7 @@ const SinglePage = () => {
                 <Link to='/destinations' className='primary-btn back'>
                   <i className="fas fa-long-arrow-alt-left"></i> Go Back
                 </Link>
-                <article>
+                <article className='flex'>
                     <div className="main-content">
                       <img src={ item.image } alt="" />
                     
@@ -51,7 +51,7 @@ const SinglePage = () => {
                         </button>
                       </div>
                       <div className="box2">
-                        <p> {item.sidepara} </p>
+                        <p> {item.sidepara}</p>
                       </div>
                     </div>
                 </article>

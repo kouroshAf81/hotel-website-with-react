@@ -1,7 +1,6 @@
 .download {
     background-color: #31b675;
     color: white;
-    height: 75vh;
     padding: 50px 0;
     overflow: hidden;
   }
@@ -22,13 +21,11 @@
   }
   .download .image {
     position: absolute;
-    left: 20%;
-    right: 0;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 860px) {
     .download .flex-space {
       flex-direction: column;
-      padding: 40px;
+      padding: 10px;
     }
     .download .row {
       width: 100%;
@@ -36,7 +33,21 @@
     .download .row2 {
       display: none;
     }
-    .download {
-      height: 60vh;
+}
+
+@media screen and (max-width: 445px) {
+    .download .flex-space {
+        padding: 0;
+      }
+    .download .flex {
+        flex-direction: column;
     }
-  }
+    .download h1 {
+        font-size: 30px;
+    }
+    .download img {
+        width: 200px;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
